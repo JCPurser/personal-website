@@ -1,18 +1,18 @@
 import { ArrowUpRight, Download, Mail } from "lucide-react";
 
 const navItems = [
-  { label: "Home", href: "#" },
-  { label: "Systems", href: "#systems" },
-  { label: "Delivery", href: "#systems" },
-  { label: "Writing", href: "#writing" },
-  { label: "Reviews", href: "#reviews" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "Project Management", href: "/project-management" },
+  { label: "Software", href: "/software" },
+  { label: "Writing", href: "/writing" },
+  { label: "Reviews", href: "/reviews" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const expertise = [
   {
-    title: "Data Analytics and Software",
+    title: "Software / Systems",
     description:
       "Designing dependable software and operating models that make complex work easier to understand, run, and improve.",
   },
@@ -22,7 +22,7 @@ const expertise = [
       "Bringing structure, pace, and clear decision-making to cross-functional work from discovery through execution.",
   },
   {
-    title: "Writing and Reviews",
+    title: "Writing / Research",
     description:
       "Turning analysis, observation, and field notes into clear essays, reviews, and practical working documents.",
   },
@@ -102,8 +102,8 @@ export default function Home() {
           className="mx-auto flex w-full max-w-7xl items-center justify-between gap-6 px-6 py-4"
           aria-label="Main navigation"
         >
-          <a href="#" className="shrink-0 text-sm font-semibold text-slate-950">
-            James Purser
+          <a href="/" className="shrink-0 text-sm font-semibold text-slate-950">
+            Your Name
           </a>
 
           <div className="hidden items-center gap-6 text-sm text-slate-600 lg:flex">
@@ -134,13 +134,18 @@ export default function Home() {
       >
         <div className="max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-blue-700">
-            COMPUTER SCIENCE, PROJECT DELIVERY, AND WRITING
+            Software, systems, delivery, and writing
           </p>
           <h1 className="mt-5 max-w-3xl text-4xl font-semibold leading-[1.08] text-slate-950 sm:text-5xl lg:text-6xl">
-            Building clear systems for complex work.
+            Clear systems for serious work.
+            <span className="block text-slate-700">
+              Thoughtful writing for what comes next.
+            </span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-            I am James Purser, a Computer Science graduate with a strong interest in software, project delivery, and structured problem solving. My work focuses on turning difficult technical and operational challenges into practical, understandable solutions.
+            I help turn complex software, operational, and delivery challenges
+            into practical structures: clearer plans, better systems, stronger
+            reviews, and writing that preserves what matters.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
